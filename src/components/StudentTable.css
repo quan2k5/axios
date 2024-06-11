@@ -1,0 +1,34 @@
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr{
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+th:first-child{
+    margin-right: 10px;
+    width: 50px;
+}
+th:nth-child(2),th:nth-child(3){
+    width: 20%;
+}
+th:nth-child(5){
+    width: 15%;
+}
+th:last-child{
+    width: 15%;
+    
+}
+i{
+    font-size: large;
+    cursor: pointer;
+}
+i:first-child{
+   color:orange;
+}
+i:last-child{
+    color: red;
+}

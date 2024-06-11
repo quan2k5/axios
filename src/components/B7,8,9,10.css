@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 20px;
+}
+header button{
+    background-color: rgba(0, 128, 0, 0.603);
+    color: white;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+}
